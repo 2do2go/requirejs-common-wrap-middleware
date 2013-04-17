@@ -5,12 +5,12 @@
   "author": "Pavel Vlasov <freakycue@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/2do2go/upload-hash-name-middleware"
+    "url": "git://github.com/2do2go/requirejs-common-wrap-middleware.git"
   },
   "keywords": [
     "express", "file", "upload", "hash", "md5"
   ],
-  "main": "./lib/hashFileUpload",
+  "main": "./lib/index",
   "engines": {
     "node": ">= 0.4.0"
   }
