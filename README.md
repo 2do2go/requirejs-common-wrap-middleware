@@ -28,3 +28,6 @@ require('requirejs-common-wrap-middleware').builder({
 	}
 });
 ```
+You can use the same config for wrapper and builder, but
+wrapper does not use basePath option, in opposite, builder does not use
+baseUrl option, but do use basePath.
