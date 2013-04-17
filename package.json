@@ -1,14 +1,14 @@
 {
   "name": "requirejs-common-wrap-middleware",
   "version": "0.1.0",
-  "description": "upload to hash rename expressjs middleware",
+  "description": "requirejs common wrap middleware",
   "author": "Pavel Vlasov <freakycue@gmail.com>",
   "repository": {
     "type": "git",
     "url": "git://github.com/2do2go/requirejs-common-wrap-middleware.git"
   },
   "keywords": [
-    "express", "file", "upload", "hash", "md5"
+    "requirejs", "common", "commonjs", "amd"
   ],
   "main": "./lib/index",
   "engines": {
