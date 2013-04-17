@@ -7,7 +7,7 @@ As a middleware:
 ```js
 var app = express.createServer();
 app.use(require('requirejs-common-wrap-middleware').wrapper({
-  baseUrl: '/js/',
+  	baseUrl: '/js/',
 	basePath: 'static/js/',
 	modules: {
 		'your_module_url': {
