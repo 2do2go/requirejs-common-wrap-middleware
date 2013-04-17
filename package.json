@@ -1,0 +1,17 @@
+{
+  "name": "requirejs-common-wrap-middleware",
+  "version": "0.1.0",
+  "description": "upload to hash rename expressjs middleware",
+  "author": "Pavel Vlasov <freakycue@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/2do2go/upload-hash-name-middleware"
+  },
+  "keywords": [
+    "express", "file", "upload", "hash", "md5"
+  ],
+  "main": "./lib/hashFileUpload",
+  "engines": {
+    "node": ">= 0.4.0"
+  }
+}
