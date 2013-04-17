@@ -19,7 +19,7 @@ app.use(require('requirejs-common-wrap-middleware').wrapper({
 On production in build script:
 ```js
 require('requirejs-common-wrap-middleware').builder({
-  baseUrl: '/js/',
+  	baseUrl: '/js/',
 	basePath: 'static/js/',
 	modules: {
 		'your_module_url': {
