@@ -1,9 +1,12 @@
-#RequireJS commonJS wrap middleware
+
+# RequireJS commonJS wrap middleware
 
 Easiest way to share your modules between server and client side
 
-#Usage
-As a middleware:
+## Usage
+
+As a middleware
+
 ```js
 var app = express.createServer();
 app.use(require('requirejs-common-wrap-middleware').wrapper({
@@ -16,7 +19,9 @@ app.use(require('requirejs-common-wrap-middleware').wrapper({
 	}
 }));
 ```
-On production in build script:
+
+for production at a build script:
+
 ```js
 require('requirejs-common-wrap-middleware').builder({
   	baseUrl: '/js/',
@@ -28,6 +33,7 @@ require('requirejs-common-wrap-middleware').builder({
 	}
 });
 ```
+
 You can use the same config for wrapper and builder, but
 wrapper does not use basePath option, in opposite, builder does not use
 baseUrl option, but do use basePath.
