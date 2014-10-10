@@ -1,8 +1,8 @@
 {
   "name": "requirejs-common-wrap-middleware",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "requirejs common wrap middleware",
-  "author": "Pavel Vlasov <freakycue@gmail.com>",
+  "author": "2do2go team <dev.2do2go@gmail.com>",
   "repository": {
     "type": "git",
     "url": "git://github.com/2do2go/requirejs-common-wrap-middleware.git"
