@@ -1,6 +1,6 @@
 {
   "name": "requirejs-common-wrap-middleware",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "requirejs common wrap middleware",
   "author": "2do2go team <dev.2do2go@gmail.com>",
   "repository": {
@@ -8,7 +8,10 @@
     "url": "git://github.com/2do2go/requirejs-common-wrap-middleware.git"
   },
   "keywords": [
-    "requirejs", "common", "commonjs", "amd"
+    "requirejs",
+    "common",
+    "commonjs",
+    "amd"
   ],
   "main": "./lib/index",
   "engines": {
